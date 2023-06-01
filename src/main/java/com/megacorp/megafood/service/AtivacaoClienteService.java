@@ -2,7 +2,9 @@ package com.megacorp.megafood.service;
 
 import com.megacorp.megafood.model.Client;
 import com.megacorp.megafood.notificator.Notificador;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AtivacaoClienteService {
 
     private Notificador notificador;
